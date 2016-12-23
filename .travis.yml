@@ -6,3 +6,4 @@ script:
 deploy:
   provider: azure_web_apps
   on: master
+  skip_cleanup:true
