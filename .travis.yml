@@ -3,3 +3,13 @@ node_js:
   - "6"
 script:
   - npm run test
+ env:
+  - azurename
+  - pass
+  - azuresite
+deploy:
+  provider: azure_web_apps
+  username: azurename       # If AZURE_WA_USERNAME isn't set
+  password: pass   # If AZURE_WA_PASSWORD isn't set
+  site: azuresite       # If AZURE_WA_SITE isn't set
+ 
