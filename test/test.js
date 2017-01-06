@@ -13,7 +13,7 @@ describe('Array', function() {
 describe('Controllers', function() {
   describe('Home', function() {
     it('should consist title key', function() {
-      var result = home.Index();
+      var result = home.DoAnalysis();
       assert.equal(true, 'title' in result);
     });
   });
