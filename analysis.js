@@ -42,7 +42,7 @@ class Analysis {
         var random_insertedstate = getNanoTime();
         console.log("r1: " + random_insertedstate);
         testData.RandomLevel =skiplist.maxLevel;
-        testData.RandomItems =skiplist.maxLevel;
+        testData.RandomItems =skiplist.numofitems;
         //Deleting RANDOMLY
         skiplist.DeleteRandomOrdered();
         var random_deletedstate = getNanoTime();
@@ -57,7 +57,7 @@ class Analysis {
         var reversed_insertedstate = getNanoTime();
         console.log("-1: " + reversed_insertedstate);
         testData.ReversedLevel =skiplist.maxLevel;
-        testData.ReversedItems =skiplist.maxLevel;
+        testData.ReversedItems =skiplist.numofitems;
         //Deleting REVERSED
         skiplist.DeleteReverseOrdered();
         var reversed_deletedstate = getNanoTime();

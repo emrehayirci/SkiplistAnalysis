@@ -17,11 +17,5 @@ describe('Controllers', function() {
 
       assert.equal(true, 'title' in result);
     });
-
-    it('should title has length of 5', function() {
-      var result = home.Index();
-
-      assert.equal(true, result['title'].length === 5);
-    });
   });
 });
