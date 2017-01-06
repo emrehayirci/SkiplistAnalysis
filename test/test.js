@@ -1,6 +1,6 @@
 var assert = require('assert');
 
-var home = require('../controllers/home.js');
+var home = require('../analysis.js');
 
 describe('Array', function() {
   describe('#indexOf()', function() {
@@ -14,7 +14,6 @@ describe('Controllers', function() {
   describe('Home', function() {
     it('should consist title key', function() {
       var result = home.Index();
-
       assert.equal(true, 'title' in result);
     });
   });
