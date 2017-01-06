@@ -9,7 +9,7 @@ describe('Array', function() {
     });
   });
 });
-
+/*
 describe('Controllers', function() {
   describe('Home', function() {
     it('should consist title key', function() {
@@ -18,3 +18,4 @@ describe('Controllers', function() {
     });
   });
 });
+*/
