@@ -17,6 +17,10 @@ It is simple...
 - /test/test.js - There is test. Testing framework is mocha.js
 - /public/javascripts/graphit.js - Visualizations and graph makings of arrays that will be displayed to the user
 
+## Travis and WebConfig
+Yess! you guessed correctly.
+It atached to Travis https://travis-ci.org/emrehayirci/SkiplistAnalysis and it automatically deploys to Azure Web Apps. In order to make it attach to IIS your node app you have to write web.config file. You can use this web config in your other projects if you like
+
 ## Does it work properly?
-It works but test results was not satisfying. As a new learner i probably mistaken somewhere. Why not "pr" and fix this?
+It works but test results was not satisfying. Send "PR" and lets fix this :)
 
